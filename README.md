@@ -39,7 +39,8 @@
 
 
 
-Скриншоты результата работы программы
+<img width="638" height="218" alt="Снимок экрана 2026-03-13 070152" src="https://github.com/user-attachments/assets/4beedcf1-ccc8-46ed-b1ce-86e4960aa073" />
+
 
 
 
@@ -85,7 +86,8 @@
 
 
 
-Скриншоты результата работы программы
+<img width="622" height="302" alt="Снимок экрана 2026-03-13 070246" src="https://github.com/user-attachments/assets/d1fb61a6-e0d3-4b3e-a36d-87373fb61fff" />
+
 
 
 
@@ -133,7 +135,8 @@
 
 
 
-Скриншоты результата работы программы
+<img width="717" height="171" alt="Снимок экрана 2026-03-13 070522" src="https://github.com/user-attachments/assets/bb8cb7d3-f0fb-422b-9c91-f83236a69e68" />
+
 
 
 
