@@ -1,21 +1,25 @@
-﻿// Кушев Александр БАС-2
+// Кушев Александр БАС-2
 // Лабораторная работа №3 (Задание №3)
 
 open System
 open System.IO
 
 // Функция поиска первого вхождения файла
-let search filename dir=
+let search filename dir =
     let files = Directory.GetFiles(
         dir, 
-        filename, 
+        "*.*", 
         SearchOption.AllDirectories
     )
 
-    if files.Length > 0 then
-        printfn "Файл найден: %s" files.[0]
-    else
-        printfn "Файл не найден."
+    // Поиск по полученным файлам каталога и его подкаталогов
+    let found = Seq.tryFind (
+        fun path -> Path.GetFileName(string path) = filename
+                ) files
+
+    match found with
+    | Some path -> printfn "Файл найден: %s" path
+    | None -> printfn "Файл не найден"
 
 // Проверка введенного пользователем пути
 let rec checkDirectory() =
