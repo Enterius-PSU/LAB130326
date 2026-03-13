@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "kpaqlkMSlIU=",
+  "success": true,
+  "projectFilePath": "c:\\Projects\\F#_Projects\\LAB130326_1\\LAB130326_1.fsproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Александр\\.nuget\\packages\\fsharp.core\\10.0.103\\fsharp.core.10.0.103.nupkg.sha512"
+  ],
+  "logs": []
+}
